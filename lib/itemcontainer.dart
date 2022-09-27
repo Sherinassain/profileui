@@ -13,7 +13,7 @@ class Item_container extends StatelessWidget {
   Widget build(BuildContext context) {
     final Size screensize = MediaQuery.of(context).size;
     return Padding(
-      padding: const EdgeInsets.all(8.0),
+      padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 8),
       child: Container(
         height: screensize.width * 0.13,
         width: screensize.width * 0.83,
